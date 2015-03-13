@@ -1,0 +1,121 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+label
+{
+	display: block;
+}
+h1
+{
+	font-family: arial;
+	font-size: 1.5em;
+	background-color: #205C90;
+	color: #ffffff;
+	box-shadow: 0 4px 10px #000000;
+	margin: 0;
+	padding: 1%;
+	text-align: center;
+	text-shadow: 0 1px 0 #ccc,
+	             0 2px 0 #c9c9c9,
+	             1px 3px 0 #999,
+	             1px 4px 1px #888,
+	             1px 5px 1px #555,
+	             0 6px 1px rgba(0, 0, 0, 0.1),
+	             0 0 5px rgba(0, 0, 0, 0.1),
+	             0 1px 3px rgba(0, 0, 0, 0.3),
+	             0 3px 5px rgba(0, 0, 0, 0.2),
+	             0 5px 10px rgba(0, 0, 0, 0.25),
+	             0 10px 10px rgba(0, 0, 0, 0.2),
+	             0 20px 20px rgba(0, 0, 0, 0.15);
+}
+#page_footer
+{
+	background-color: #205C90;
+	box-shadow: 0 4px 10px #000000;
+	color: #FFFFFF;
+	font-size: 0.5em;
+	margin-bottom: 2%;
+	margin-top: 4%;
+	padding: 1%;
+	text-align: center;
+}
+#page_heading_container
+{
+	border-bottom: 1px solid #666666;
+	margin: 0 0 1%;
+	padding: 0;
+}
+.article
+{
+	margin: 1.5em 1% 1%;
+	padding: 1%;
+	box-shadow: 0 4px 10px #CCCCCC;
+	text-align: center;
+}
+.day
+{
+	border: 1px solid #333333;
+	box-shadow: 0 2px 5px #bbbbbb;
+	display: inline-block;
+	font-size: 11pt;
+	margin: 0.125em;
+	max-width: 425px;
+	text-align: left;
+	width: 100%;
+}
+.day > label
+{
+	background: #999999;
+	box-shadow: 0 5px 10px #cccccc;
+	color: #ffffff;
+	display: block;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+	padding: 0.25em;
+}
+.meals
+{
+	border-top: 1px solid #333333;
+	margin: 0;
+	padding: 0.25em;
+}
+.meals > label
+{
+	font-style: italic;
+	font-weight: bold;
+}
+.meal
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* big boy screen skin */
+@media (min-width: 568px)
+{
+	body
+	{
+		background: #dddddd;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 1%;
+	}
+	h1
+	{
+		margin: 0;
+	}
+	#content_container
+	{
+		background: #ffffff;
+		box-shadow: 0 0 15px 5px #999999;
+		margin-left: auto;
+		margin-right: auto;
+		/*max-width: 568px;*/
+		padding: 0.5% 1% 1%;
+	}
+}
+
